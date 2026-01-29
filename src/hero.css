@@ -1,0 +1,39 @@
+.banner{
+    width: 100%;
+    height: auto;
+    padding: 0 0 50px 0;
+    background: #FFFFFF;
+}
+.about_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.hero_banner_f{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card_banner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 0 50px;
+}
+.card_item{
+    width: 266px;
+height: 136px;
+gap: 8px;
+border-radius: 8px;
+padding: 28px;
+background: #F5F5F5;
+
+}
+
+.card_item h3{
+    margin-bottom: 10px;
+}
+.card_item p{
+    margin-bottom: 15px;
+}
