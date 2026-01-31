@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './wrapper.jsx'
 
 export default class Wrapper extends Component {
   render() {
